@@ -4,6 +4,7 @@ var bg, bg1, bg2;
 
 var gameState = 0;
 
+var up, down, left, right;
 
 var lives = 3;
 var heart, HeartImg;
@@ -104,6 +105,11 @@ function setup() {
   player = createSprite(120, 320, 40, 40);
   player.visible = false;
   player.shapeColor = "yellow";
+  
+  up = createSprite(1200, 750, 20, 20);
+  down = createSprite(1200, 800, 20, 20);
+  left = createSprite(1150, 770, 20, 20);
+  right = createSprite(1500, 770, 20, 20);
 
   corona = createSprite(820, 315, 10, 10);
   corona1 = createSprite(560, 305, 10, 10);
