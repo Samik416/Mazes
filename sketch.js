@@ -106,10 +106,10 @@ function setup() {
   player.visible = false;
   player.shapeColor = "yellow";
   
-  up = createSprite(1200, 750, 20, 20);
-  down = createSprite(1200, 800, 20, 20);
-  left = createSprite(1150, 770, 20, 20);
-  right = createSprite(1500, 770, 20, 20);
+  up = createSprite(1200, 50, 20, 20);
+  down = createSprite(1200, 100, 20, 20);
+  right = createSprite(1150, 70, 20, 20);
+  left = createSprite(1250, 70, 20, 20);
 
   corona = createSprite(820, 315, 10, 10);
   corona1 = createSprite(560, 305, 10, 10);
